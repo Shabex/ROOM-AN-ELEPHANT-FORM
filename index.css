@@ -35,8 +35,24 @@ li{
     list-style:none;
 }
 
+nav ul {
+    margin-left: 15px;
+}
+
+nav ul li {
+    /* display: inline-block; */
+    padding: 5px;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    background-color: green;
+    color: #fff;
+
+}
+
 table {
-    width: 700px
+    width: 100%
 
 }
 th{
