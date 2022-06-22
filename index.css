@@ -51,6 +51,20 @@ nav ul li:hover {
 
 }
 
+.elephant-details h2 {
+    font-size: 32px;
+    font-family: cursive;
+    color: green;
+    margin: 10px;
+    text-align: center;
+}
+
+.elephant-details img {
+    display: block;
+    height: 200px;
+    margin: 0 auto 25px auto;
+}
+
 table {
     width: 100%
 
