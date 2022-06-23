@@ -1,4 +1,4 @@
 
 document.addEventListener('DOMContentLoaded',() => {
-    console.log('project')
+    console.log('project proposal')
 })
