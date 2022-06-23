@@ -25,31 +25,19 @@ document.addEventListener("DOMContentLoaded",() => {
             const elephantImage = document.getElementById("elephant-image").src=elephant.image
             console.log(elephantImage)
 
+            const elephantSex = document.getElementById("sex")
+            elephantSex.textContent = elephant.sex
+
+            const elephantSpecies = document.getElementById("species")
+            elephantSpecies.textContent = elephant.species
+
+
           })
 
         })
   
     }
 
-
-    // fetch('https://flame-somber-crepe.glitch.me/db.json')
-    //     .then(res=>res.json())
-    //     // .then(data => {
-    //     //     return elephantSpecies(data.Elephants);
-    //     .then(elephantSpecies)
-
-
-    //     function elephantSpecies(elephants)
-    //     elephants.forEach(elephant => {
-            
-    //     });(elephant => {
-
-    //         const barNav = document.getElementById("elephant-list")
-    //         const list = document.createElement("list")
-
-    //         list.innerText = elephant.name;
-    //         barNav.appendChild(list)
-    //     })
 
 })
 
