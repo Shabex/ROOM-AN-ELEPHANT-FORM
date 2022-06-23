@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded',() => {
     
     function getElephant() {
 
-        fetch('https://elephant-api.herokuapp.com/elephants')
+        fetch('https://flame-somber-crepe.glitch.me/db.json')
         .then(res=>res/json())
         .then(data => {
             return elephantSpecies(data);
