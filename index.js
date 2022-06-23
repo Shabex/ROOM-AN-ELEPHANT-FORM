@@ -25,6 +25,9 @@ document.addEventListener("DOMContentLoaded",() => {
             const elephantImage = document.getElementById("elephant-image").src=elephant.image
             console.log(elephantImage)
 
+            const elephantName = document.getElementById("elephant-name")
+            elephantName.textContent = elephant.name;
+
             const elephantSex = document.getElementById("sex")
             elephantSex.textContent = elephant.sex
 
