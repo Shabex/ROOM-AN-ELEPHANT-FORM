@@ -31,6 +31,17 @@ document.addEventListener("DOMContentLoaded",() => {
             const elephantSpecies = document.getElementById("species")
             elephantSpecies.textContent = elephant.species
 
+            const elephantAffiliation = document.getElementById("affiliation")
+            elephantAffiliation.textContent = elephant.affiliation
+
+            const elephantDOB = document.getElementById("dob")
+            elephantDOB.textContent = elephant.dob
+
+            const elephantNote = document.getElementById("note")
+            elephantNote.textContent = elephant.note
+
+
+
 
           })
 
