@@ -43,11 +43,36 @@ document.addEventListener("DOMContentLoaded",() => {
             const elephantNote = document.getElementById("note")
             elephantNote.textContent = elephant.note
 
-
-
-
+        
           })
 
+          var likeButton = document.getElementById("btn")
+          function toggle() {
+              if (likeButton.style.color == "red") {
+                  likeButton.style.color = "blue"
+              } else {
+                  likeButton.style.color = "red"
+              }
+          }
+
+        })
+
+        const feedbackForm = document.getElementById('feedback-form')
+        feedbackForm.addEventListener('submit', (e) => {
+            e.preventDefault()
+            
+            const feedbackList = document.getElementById ("feedback-list")
+
+            const volunteerFeeback = document.getElementById("feeder")
+            const newFeedback = document.createElement('li')
+            newFeedback.style.cursor = 'pointer'
+            newFeedback.innerText = volunteerFeeback
+            feedbackList.appendChild(newFeedback)
+            feedbackForm.reset()
+            newFeedback.addEventListener('click', (e) => {
+                e.preventDefault()
+                newFeedback.remove()
+            })
         })
   
     }
