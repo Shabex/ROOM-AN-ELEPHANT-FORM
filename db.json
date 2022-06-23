@@ -1,5 +1,5 @@
 { 
-   "Elephants": [
+   "elephants": [
        {
         "_id": "5cf1d0db3cfbe0fcbb6c4c93",
         "index": 1,
@@ -658,4 +658,5 @@
         "image": "https://elephant-api.herokuapp.com/pictures/036.jpg",
         "note": "An elephant famous for creating paintings. The most expensive of her paintings sold for $25,000."
     }
-]}
+    ]
+}
