@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded",() => {
         fetch('http://localhost:3000/Elephants')
         .then(res=>res.json())
         .then(data => {
-             elephantSpecies(data.slice(7,14));
+             elephantSpecies(data.slice(5,20));
         }) 
 
     }
@@ -43,6 +43,8 @@ document.addEventListener("DOMContentLoaded",() => {
             const elephantNote = document.getElementById("note")
             elephantNote.textContent = elephant.note
 
+            
+
         
           })
 
@@ -56,6 +58,9 @@ document.addEventListener("DOMContentLoaded",() => {
           }
 
         })
+
+
+
 
         const feedbackForm = document.getElementById('feedback-form')
         feedbackForm.addEventListener('submit', (e) => {

@@ -75,7 +75,7 @@ body {
 .header2 {
     float: right;
     width: 350px;
-    height: 250px;
+    height: 65%;
     border-left: solid black;
     border-right: solid black;
     border-bottom: solid black;
@@ -137,6 +137,7 @@ nav ul li:hover {
 table {
     width: 90%;
     margin-left: 5%;
+
     
 
 }
