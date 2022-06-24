@@ -10,12 +10,15 @@ Run this command to get the backend started:
 ```console
 $ json-server --watch db.json
 ```
-The base URL for your API will be
+
 Test your server by visiting this route in the browser:
 
 [http://localhost:3000/Elephants](http://localhost:3000/Elephants)
 
 Then, open the `index.html` file on your browser to run the application.
+
+The base URL for your API will be
+[http://localhost:3000/Elephants](http://localhost:3000/Elephants).
 
 ## Technologies Used
 HTML
