@@ -3,10 +3,11 @@ document.addEventListener("DOMContentLoaded",() => {
     
     function getElephants() {
 
-        fetch('http://localhost:3000/Elephants')
+        fetch('https://reliable-picturesque-bowler.glitch.me/db.json')
         .then(res=>res.json())
         .then(data => {
-             elephantSpecies(data.slice(5,20));
+            console.log (data)
+             elephantSpecies(data.Elephants);
         }) 
 
     }
@@ -14,7 +15,8 @@ document.addEventListener("DOMContentLoaded",() => {
     getElephants();
 
     function elephantSpecies(data){
-        data.forEach (elephant => {
+        const newElephant = [...data.slice(5,20)]
+        newElephant.forEach (elephant => {
             
         const elephantList = document.getElementById("elephant-list")
         const list = document.createElement("li")
