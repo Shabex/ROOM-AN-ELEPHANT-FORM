@@ -54,7 +54,7 @@ Use this gif as an example of how the app should work.
 ## Support and Contact
 For any issues, questions, ideas, contribution, concerns kindly get in touch with the contributors through contacts that will be provided. As a user you can also contact us for code contribution.
 
-shaban Ibrahim - +254 705 498 635
+shaban Ibrahim - [+254 705 498 635](+254 705 498 635)
 
                  ishaban400@gmail.com
 
@@ -84,4 +84,6 @@ SOFTWARE.
 
 ## AUTHORS INFO
 Slack profile [Shaban Ibrahim](https://app.slack.com/client/T0101L740P4/D03HL4C61PH/user_profile/U03GW75NRFT)
+
+Copyright (c) 2022 Shaban Ibrahim
 
