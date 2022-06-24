@@ -12,6 +12,7 @@ Use this gif as an example of how the app should work.
 
 
 ## Setup
+Fork and clone this application's repository into your local environment. Navigate into its directory in the terminal, then run code . to open the files in Visual Studio Code.
 
 Run this command to get the backend started:
 
@@ -23,7 +24,7 @@ Test your server by visiting this route in the browser:
 
 [ http://localhost:3000/Elephants](http://localhost:3000/Elephants)
 
-Then, open the `index.html` file on your browser to run the application.
+Then, open the `index.html` file on your browser using live server to run the application.
 
 The base URL for your API will be
 [ http://localhost:3000/Elephants](http://localhost:3000/Elephants).
