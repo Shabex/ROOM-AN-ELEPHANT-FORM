@@ -63,6 +63,10 @@
     cursor: pointer;
 }
 
+.nav-link:hover {
+    background-color: green;
+}
+
 
 body {
     margin: 0;
