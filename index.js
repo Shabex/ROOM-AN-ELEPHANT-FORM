@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded",() => {
             const elephantNote = document.getElementById("note")
             elephantNote.textContent = elephant.note
 
-            
+
 
         
           })
@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded",() => {
             
             const feedbackList = document.getElementById ("feedback-list")
 
-            const volunteerFeeback = document.getElementById("feeder")
+            const volunteerFeeback = document.getElementById("feeder").value
             const newFeedback = document.createElement('li')
             newFeedback.style.cursor = 'pointer'
             newFeedback.innerText = volunteerFeeback
