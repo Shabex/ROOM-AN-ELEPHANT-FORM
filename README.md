@@ -21,6 +21,9 @@ CSS
 
 Javascript
 
+## API Link
+[https://reliable-picturesque-bowler.glitch.me/db.json](https://reliable-picturesque-bowler.glitch.me/db.json)
+
 ## Support and Contact
 For any issues, questions, ideas, contribution, concerns kindly get in touch with the contributors through contacts that will be provided. As a user you can also contact us for code contribution.
 
