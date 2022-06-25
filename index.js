@@ -67,6 +67,8 @@ document.addEventListener("DOMContentLoaded",() => {
         const feedbackForm = document.getElementById('feedback-form')
         feedbackForm.addEventListener('submit', (e) => {
             e.preventDefault()
+            alert("Thank you for your feedback. Click 'OK'")
+            
             
             const feedbackList = document.getElementById ("feedback-list")
 
@@ -80,6 +82,7 @@ document.addEventListener("DOMContentLoaded",() => {
                 e.preventDefault()
                 newFeedback.remove()
             })
+            
         })
   
     }
