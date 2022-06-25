@@ -35,7 +35,7 @@ Run the app on live server [https://shabex.github.io/ROOM-AN-ELEPHANT-FORM/](htt
 
 Use this gif as an example of how the app should work.
 
-![demo gif](https://media.giphy.com/media/u1JvmuHF2mZNmPyPS6/giphy.gif)
+![demo gif](https://media.giphy.com/media/lT5Cc6gEu81Oq9CHcn/giphy.gif)
 
 > To view in VSCode, right click on the README.md file and select "Open Preview".
 
